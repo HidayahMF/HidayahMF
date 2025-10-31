@@ -86,39 +86,6 @@ I love learning new things, trying new challenges, and exploring technology that
 
 </div>
 
-
----
-
-### Entrepreneur Experience
-
-#### [PadelStoreID (Itemku)](https://itemku.com/toko/padelstoreid/12026056)
-<p align="center">
-  <img src="./img/itemku.png" width="100" alt="Itemku Logo"/>
-</p>
-
-*March 21, 2024 – Present*  
-**Revenue:** ~$2,000  
-
-A digital game store selling rare in-game items, game passes, and tokens for popular games.
-
-**Key Skills:**  
-Digital Marketing • Customer Support • Online Sales Strategy • Inventory Management • Business Analytics • Social Media Marketing • Profit & Cost Calculation • Product Sourcing
-
----
-
-#### [PadelStoreID (ZeusX)](https://zeusx.com/seller/padelstoreid-572107)
-<p align="center">
-  <img src="./img/zeusx.png" width="100" alt="ZeusX Logo"/>
-</p>
-
-*November 8, 2024 – Present*  
-**Revenue:** ~$10,000  
-
-An international marketplace for buying and selling game accounts and digital assets safely and reliably.
-
-**Key Skills:**  
-Digital Marketing • Sales Planning • Business Analytics • Payment Handling • Problem Solving • Adaptability • Customer Engagement
-
 ---
 
 ### GitHub Stats
