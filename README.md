@@ -7,7 +7,7 @@
 
 <!-- PROFILE SECTION -->
 <div align="center">
-  <img src="./img/profile.jpg" width="140" style="border-radius:50%; border: 3px solid;" alt="Profile Picture">
+  
   
   <!-- Typing effect title (warna oranye) -->
   <h1 align="center">
