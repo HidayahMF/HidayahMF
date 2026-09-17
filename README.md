@@ -109,21 +109,18 @@ const hidayah = {
 <p align="center">
   <img
     width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=HidayahMF&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9"
-    alt="HidayahMF GitHub stats"
+    src="./generated/github-stats.svg"
+    alt="HidayahMF GitHub analytics"
   />
   <img
     width="49%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=HidayahMF&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"
-    alt="HidayahMF top languages"
+    src="./generated/top-languages.svg"
+    alt="HidayahMF most used languages"
   />
 </p>
 
 <p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=HidayahMF&theme=github-dark-blue&hide_border=true&background=0D1117"
-    alt="HidayahMF GitHub streak"
-  />
+  <sub>Generated automatically from GitHub data and refreshed every day.</sub>
 </p>
 
 <br />
