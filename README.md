@@ -1,125 +1,88 @@
-<!-- Hidayah Muhammad Fadillah GitHub Profile README -->
-
-<!-- HEADER -->
 <p align="center">
-  <img src="./img/header.png" width="100%" alt="Header Banner"/>
+  <img src="./img/profile-banner.svg" width="100%" alt="Hidayah Muhammad Fadillah — Full Stack Developer. Building useful software, from interface to API." />
 </p>
 
-<!-- PROFILE SECTION -->
-<div align="center">
-  
-  
-  <!-- Typing effect title (warna oranye) -->
-  <h1 align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=28&duration=3500&pause=1000&color=FFA500&center=true&vCenter=true&width=600&lines=Hi,+I'm+Hidayah+Muhammad+Fadillah;FullStack+Developer;Tech+Enthusiast+%26+Entrepreneur" alt="Typing SVG" />
-  </h1>
+<p align="center">
+  <a href="https://www.linkedin.com/in/hidayah-muhammad-fadillah-89695b384/"><img src="https://img.shields.io/badge/LinkedIn-LET'S_CONNECT-172842?style=for-the-badge&amp;labelColor=0D1526&amp;color=172842" alt="Connect on LinkedIn" /></a>
+  <a href="https://github.com/HidayahMF?tab=repositories"><img src="https://img.shields.io/badge/Explore-MY_REPOSITORIES-FFAB66?style=for-the-badge&amp;labelColor=0D1526" alt="Explore my repositories" /></a>
+  <a href="https://www.instagram.com/hdyhmfdlh/"><img src="https://img.shields.io/badge/Instagram-HDYHMFDLH-172842?style=for-the-badge&amp;labelColor=0D1526" alt="Instagram: hdyhmfdlh" /></a>
+</p>
 
-  <p>Creating digital experiences that blend functionality, design, and impact.</p>
-</div>
+## Hey, I'm Hidayah 👋
+
+I build web applications that connect thoughtful interfaces with practical backend systems. My work spans company websites, ordering platforms, and educational experiences.
+
+- **Frontend:** responsive interfaces with React, JavaScript, and TypeScript.
+- **Backend:** APIs and data-driven applications with Node.js, Express, and Laravel.
+- **Approach:** understand the workflow, build something useful, and keep improving it.
+
+## Selected projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>01 · Kantin Pintar</h3>
+<p>A canteen ordering application with customer and admin interfaces, menu management, and order workflows.</p>
+<p><code>React</code> <code>Express</code> <code>MongoDB</code></p>
+<a href="https://github.com/HidayahMF/kantinpintarv2"><b>Explore project →</b></a>
+</td>
+<td width="50%" valign="top">
+<h3>02 · BMC Website</h3>
+<p>A company website combining a React frontend with an Express backend and authenticated internal features.</p>
+<p><code>React</code> <code>Express</code> <code>MySQL</code></p>
+<a href="https://github.com/HidayahMF/BMC"><b>Explore project →</b></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>03 · OutGamble</h3>
+<p>An educational web experience raising awareness of online gambling risks through information and prevention content.</p>
+<p><code>React</code> <code>Vite</code> <code>Education</code></p>
+<a href="https://github.com/HidayahMF/OutGamble"><b>Explore project →</b></a>
+</td>
+<td width="50%" valign="top">
+<h3>04 · Portfolio</h3>
+<p>A personal portfolio project with a Laravel backend for managing portfolio entries.</p>
+<p><code>PHP</code> <code>Laravel</code> <code>Portfolio</code></p>
+<a href="https://github.com/HidayahMF/Portofolio-2025"><b>Explore project →</b></a>
+</td>
+</tr>
+</table>
+
+## Tech stack
+
+**Frontend**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,vite&amp;theme=dark" alt="React, TypeScript, JavaScript, HTML, CSS, Vite" />
+</p>
+
+**Backend & databases**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,php,laravel,mysql,mongodb&amp;theme=dark" alt="Node.js, Express, PHP, Laravel, MySQL, MongoDB" />
+</p>
+
+**Tools & workflow**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,linux,postman,figma&amp;theme=dark" alt="Docker, Linux, Postman, Figma" />
+</p>
+
+<details>
+<summary>More technologies I've explored</summary>
+<br />
+
+Next.js · React Native · Python · Leaflet · Axios · JWT · Debian · Arduino · Vercel · Canva
+
+</details>
 
 ---
 
-### About Me
-I'm a Developer who loves building seamless, scalable, and efficient web solutions.  
-I specialize in crafting modern user interfaces and developing robust APIs that deliver excellent user experiences.
-
-I love learning new things, trying new challenges, and exploring technology that pushes the boundaries of creativity and logic.  
-
----
-
-### Skills & Tools
-
-### ⚙️ Skills & Tools
-
-<div align="center">
-
-<!-- 1 -->
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<p align="center">
+  <b>Have an idea worth building?</b><br />
+  Let's talk about web applications, APIs, and useful digital products.<br /><br />
+  <a href="https://www.linkedin.com/in/hidayah-muhammad-fadillah-89695b384/">Connect on LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/HidayahMF?tab=repositories">Browse my work</a>
 </p>
-
-<!-- 2 -->
-<p>
-  <img src="https://img.shields.io/badge/Next%20JS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-  <img src="https://img.shields.io/badge/Express%20JS-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-</p>
-
-<!-- 3 -->
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=Leaflet&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
-
-<!-- 4 -->
-<p>
-  <img src="https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white" />
-  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laragon-0E83CD?style=for-the-badge&logo=Laragon&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
-</p>
-
-<!-- 5 -->
-<p>
-  <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" />
-  <img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</p>
-
-<!-- 6 -->
-<p>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white" />
-</p>
-
-</div>
-
----
-
-### GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hidayahmf&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" height="170">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hidayahmf&layout=compact&theme=radical&hide_border=true" height="170">
-</div>
-
-
----
-
-### Connect with Me
-
-<div align="center">
-
-<a href="https://github.com/hidayahmf" target="_blank">
-  <img src="https://skillicons.dev/icons?i=github" width="40" alt="GitHub"/>
-</a>
-<a href="https://www.linkedin.com/in/hidayah-muhammad-fadillah-89695b384/" target="_blank">
-  <img src="https://skillicons.dev/icons?i=linkedin" width="40" alt="LinkedIn"/>
-</a>
-<a href="https://www.instagram.com/hdyhmfdlh/" target="_blank">
-  <img src="https://skillicons.dev/icons?i=instagram" width="40" alt="Instagram"/>
-</a>
-
-
-</div>
-
----
-
-<div align="center">
-  <p style="font-size: 16px; font-style: italic;">
-    “Building useful digital ecosystems for gamers and developers alike.”
-  </p>
-  <p>Made with ❤️ by <b>Hidayah Muhammad Fadillah</b></p>
-</div>
