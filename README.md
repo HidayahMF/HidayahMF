@@ -86,3 +86,7 @@ Next.js · React Native · Python · Leaflet · Axios · JWT · Debian · Arduin
   &nbsp;·&nbsp;
   <a href="https://github.com/HidayahMF?tab=repositories">Browse my work</a>
 </p>
+
+## Development documentation
+
+- [Development pipeline](docs/development-pipeline.md) — code-grounded flow, source map, declared commands, validation plan, and current limitations.
