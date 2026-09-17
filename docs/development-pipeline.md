@@ -1,83 +1,121 @@
-# HidayahMF — Development Pipeline
+# 🧑‍🚀 HidayahMF — GitHub Profile Publishing Blueprint
 
-> Code-grounded maintenance and publishing guide for the GitHub profile repository. Reviewed from `main` at `9ae6037d4170` on 2026-09-17.
+> **The repository is the profile.** `README.md` is the product, GitHub is the renderer, and every public claim should stay traceable to real work.
 
-This repository is the public GitHub profile itself. The primary product is `README.md`: profile introduction, selected projects, technology icons, badges, and contact links.
+**Reviewed snapshot:** `main` @ [`9ae6037d4170`](https://github.com/HidayahMF/HidayahMF/commit/9ae6037d4170d41c38acf4ba9d4defe5ea11e7d3) — 2026-09-17
 
-## 1. Publishing architecture
-
-```mermaid
-flowchart LR
-    EDIT[Edit README.md] --> MD[Markdown + HTML]
-    MD --> EXT[External badges / images]
-    MD --> LINKS[Project + contact links]
-    LINKS --> GH[GitHub Profile Renderer]
-    EXT --> GH
-```
-
-## 2. Profile update pipeline
-
-```mermaid
-flowchart TD
-    CHANGE[New project / skill / profile change] --> VERIFY[Verify claim from real work]
-    VERIFY --> README[Update README]
-    README --> LINKS[Check links]
-    LINKS --> MEDIA[Check icons/images/badges]
-    MEDIA --> MOBILE[Preview desktop/mobile]
-    MOBILE --> REVIEW[Review diff]
-    REVIEW --> MERGE[Merge]
-```
-
-## 3. Content ownership
+## ⚡ Profile system
 
 | Area | Source of truth |
 | --- | --- |
-| Bio / introduction | `README.md` |
-| Featured projects | `README.md` project sections |
-| Technology stack | README icons/badges |
-| Contact links | README links |
-| Rendering | GitHub profile README feature |
+| Intro / bio | `README.md` |
+| Featured work | README project sections |
+| Tech stack | README icons / badges |
+| Contact | README links |
+| Renderer | GitHub Profile README |
+| App runtime | None |
 
-## 4. Verification gates
-
-Before publishing:
-
-- Project descriptions match actual repository capabilities.
-- Private/internal implementation details are not exposed accidentally.
-- Repository links resolve to the intended project.
-- Contact links are valid.
-- Image/badge URLs render correctly.
-- Alt text or readable labels exist where appropriate.
-- HTML tables and Markdown render acceptably on desktop and narrow screens.
-
-## 5. Release pipeline
+## 🏗️ Publishing architecture
 
 ```mermaid
 flowchart LR
-    BRANCH[Documentation Branch] --> PREVIEW[Markdown Preview]
-    PREVIEW --> DIFF[Review Diff]
-    DIFF --> PR[Pull Request]
-    PR --> MERGE[Merge to main]
-    MERGE --> PROFILE[GitHub Profile Updated]
+    SOURCE[Verified work] --> COPY[Profile copy]
+    COPY --> README[README.md]
+    README --> MD[Markdown / HTML]
+    README --> LINKS[Project + contact links]
+    README --> MEDIA[Badges / external images]
+
+    MD --> GITHUB[GitHub renderer]
+    LINKS --> GITHUB
+    MEDIA --> GITHUB
+    GITHUB --> PROFILE[Public profile]
 ```
 
-There is no application runtime, package manifest, server, database, or conventional CI requirement in the reviewed snapshot.
-
-## 6. Reliability notes
+## ✍️ Profile update journey
 
 ```mermaid
 flowchart TD
-    README[README Content] --> GITHUB[GitHub Rendering]
-    README --> EXTERNAL[External Image / Badge Services]
-    EXTERNAL --> FAIL{Service available?}
-    FAIL -->|Yes| OK[Asset renders]
-    FAIL -->|No| BROKEN[Asset may appear broken]
+    CHANGE[New project / skill / milestone] --> VERIFY{Can it be verified?}
+    VERIFY -->|No| HOLD[Do not publish claim yet]
+    VERIFY -->|Yes| EDIT[Update README]
+    EDIT --> LINKS[Test links]
+    LINKS --> MEDIA[Test badges/images]
+    MEDIA --> MOBILE[Check narrow layout]
+    MOBILE --> DIFF[Review public diff]
+    DIFF --> PR[Pull request]
+    PR --> MERGE[Merge to main]
+    MERGE --> LIVE[Profile updates]
 ```
 
-External media can fail independently even when the README syntax is correct.
+## 🛡️ Public-profile quality gates
 
-## 7. Source map
+| Gate | Pass condition |
+| --- | --- |
+| Accuracy | Project descriptions match actual implementation |
+| Privacy | No internal/private details leak into public copy |
+| Navigation | Every featured repository link resolves correctly |
+| Contact | Public contact destinations are intentional and valid |
+| Rendering | Markdown/HTML tables render cleanly |
+| Media | Icons/badges load or degrade acceptably |
+| Mobile | Profile remains readable on narrow screens |
 
-- [`README.md`](https://github.com/HidayahMF/HidayahMF/blob/9ae6037d4170d41c38acf4ba9d4defe5ea11e7d3/README.md)
+## 🎯 Content hierarchy
 
-Keep this guide synchronized when the profile structure, public project selection, or external media strategy changes.
+```mermaid
+flowchart LR
+    HERO[Who I am] --> PROOF[What I built]
+    PROOF --> STACK[What I use]
+    STACK --> DEPTH[How I work]
+    DEPTH --> CONTACT[How to reach me]
+```
+
+A strong profile should move from **identity → evidence → skills → engineering depth → contact**, rather than becoming a wall of badges.
+
+## 🗺️ Source map
+
+| File | Responsibility |
+| --- | --- |
+| [`README.md`](https://github.com/HidayahMF/HidayahMF/blob/9ae6037d4170d41c38acf4ba9d4defe5ea11e7d3/README.md) | Entire rendered GitHub profile |
+
+## 🚀 Publishing pipeline
+
+```mermaid
+flowchart LR
+    BRANCH[Docs branch] --> PREVIEW[Markdown preview]
+    PREVIEW --> CHECK[Links + visual check]
+    CHECK --> PR[PR review]
+    PR --> MERGE[Merge]
+    MERGE --> GITHUB[GitHub render]
+    GITHUB --> VERIFY[Live profile smoke check]
+```
+
+No application runtime, database, build system, or conventional CI requirement exists in the reviewed snapshot.
+
+## ⚠️ Risk radar
+
+| Priority | Risk | Guardrail |
+| --- | --- | --- |
+| 🟠 Medium | Profile claims drift from real repositories | Re-verify project copy when repos change |
+| 🟠 Medium | Internal/private details become public | Review README diffs as publication changes |
+| 🟡 Low | External badge/image services fail | Keep critical information readable without them |
+| 🟡 Low | Badge overload hides strongest work | Prioritize projects and engineering evidence |
+
+## 🖼️ External media reliability
+
+```mermaid
+flowchart TD
+    README[README] --> HOST[External image/badge host]
+    HOST --> AVAILABLE{Available?}
+    AVAILABLE -->|Yes| RENDER[Asset renders]
+    AVAILABLE -->|No| FALLBACK[README must still make sense]
+```
+
+## 📌 Definition of a strong update
+
+A good profile change should improve at least one of these: **clarity, evidence, navigation, credibility, or visual hierarchy**. Adding another badge without improving those is usually not a meaningful release.
+
+---
+
+### Keeping this blueprint accurate
+
+Update this document when the profile layout, featured-project strategy, or external media approach changes.
