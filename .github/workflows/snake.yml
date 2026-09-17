@@ -32,3 +32,5 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+# The push trigger above also makes the first generated snake appear immediately.
