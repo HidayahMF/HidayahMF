@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
+  <title id="title">Hidayah Muhammad Fadillah — Full Stack Developer</title>
+  <desc id="desc">Building useful software, from interface to API. Navy banner with orange accents and a code window.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0D1526"/><stop offset="1" stop-color="#172842"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="1280" height="380" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="380" rx="24" fill="url(#grid)"/>
+  <rect x="48" y="56" width="5" height="266" rx="2.5" fill="#FFAB66"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="80" y="83" font-size="15" letter-spacing="4" fill="#FFAB66">HIDAYAHMF / FULL STACK DEVELOPER</text>
+    <text x="76" y="157" font-size="53" font-weight="700" fill="#F4F7FB">Hidayah Muhammad</text>
+    <text x="76" y="218" font-size="53" font-weight="700" fill="#F4F7FB">Fadillah<tspan fill="#FFAB66">.</tspan></text>
+    <text x="80" y="267" font-size="21" fill="#BBC9DC">Building useful software, from interface to API.</text>
+    <text x="80" y="315" font-size="15" letter-spacing="2" fill="#FFAB66">WEB APPLICATIONS · APIs · USER EXPERIENCE</text>
+  </g>
+  <rect x="819" y="75" width="397" height="234" rx="14" fill="#0C1321" stroke="#33445C"/>
+  <path d="M819 118H1216" stroke="#33445C"/>
+  <circle cx="842" cy="97" r="5" fill="#FFAB66"/><circle cx="860" cy="97" r="5" fill="#D4B37F"/><circle cx="878" cy="97" r="5" fill="#80B8AE"/>
+  <g font-family="monospace" font-size="18">
+    <text x="848" y="159" fill="#FFAB66">const developer = {</text>
+    <text x="870" y="196" fill="#BBC9DC">focus: <tspan fill="#A6D5C4">'useful products'</tspan>,</text>
+    <text x="870" y="233" fill="#BBC9DC">mindset: <tspan fill="#A6D5C4">'keep learning'</tspan></text>
+    <text x="848" y="270" fill="#FFAB66">};</text>
+  </g>
+</svg>
