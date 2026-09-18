@@ -28,7 +28,7 @@
 
 <br />
 
-## 👨‍💻 About Me
+## About Me
 
 ```ts
 const hidayah = {
@@ -43,7 +43,7 @@ const hidayah = {
 
 <br />
 
-## ⚡ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -104,7 +104,7 @@ const hidayah = {
 
 <br />
 
-## 📊 GitHub Analytics
+## GitHub Analytics
 
 <p align="center">
   <img
@@ -146,7 +146,7 @@ const hidayah = {
 
 <br />
 
-## 📫 Connect With Me
+## Connect With Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/hidayah-muhammad-fadillah-89695b384/">
